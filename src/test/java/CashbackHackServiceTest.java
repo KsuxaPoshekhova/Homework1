@@ -31,9 +31,9 @@ public class CashbackHackServiceTest {
     @ org.junit.Test
     public void testRemain4() {
         CashbackHackService service = new CashbackHackService();
-        int amount = 800;
+        int amount = 1000;
         int actual = service.remain(amount);
-        int expected = 200;
+        int expected = 0;
 
         assertEquals(actual ,expected );
     }
